@@ -1,4 +1,4 @@
-Catalyst::Model::XMLRPC version 0.01
+Catalyst::Model::XMLRPC version 0.03
 =======================================
 
 Catalyst model that provide a simple way to communicate with remote processes

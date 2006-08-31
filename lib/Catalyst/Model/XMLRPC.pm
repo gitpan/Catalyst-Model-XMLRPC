@@ -8,7 +8,7 @@ use NEXT;
 use RPC::XML;
 use RPC::XML::Client;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 our $AUTOLOAD;
 
 

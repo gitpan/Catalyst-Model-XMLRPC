@@ -1,3 +1,7 @@
 Revision history for Perl extension Catalyst::Model::XMLRPC.
 
-0.01  Wed Aug 30 21:59:42 2006
+0.03  Thu Aug 31 01:46:14 2006
+	- Fixed README file.
+0.02  Wed Aug 30 21:59:42 2006
+	- Added Changes and README files.
+0.01  Tue Jul 18 12:35:00 2006
