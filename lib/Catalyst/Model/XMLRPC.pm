@@ -8,7 +8,7 @@ use NEXT;
 use RPC::XML;
 use RPC::XML::Client;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 our $AUTOLOAD;
 
 
@@ -16,6 +16,7 @@ sub new {
     my ($class, $c, $config) = @_;
 
     my $self = $class->NEXT::new($c, $config);
+    $self->config($config);
 
     return $self;
 }
@@ -147,6 +148,8 @@ documentation of this module for further references.
 =over 1
 
 =item * Daniel Westermann-Clark's module, L<Catalyst::Model::LDAP>, it was my reference.
+
+=item * Lee Aylward, for reporting the issue regarding v.0.03.
 
 =back
 
